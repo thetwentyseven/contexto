@@ -63,6 +63,11 @@ You do not need to register to [Wikidata](https://www.wikidata.org/wiki/Wikidata
 Got questions or feedback? Let me know! Contact me at media@thetwentyseven.co.uk.
 
 
+== Contributors ==
+
+Want to contribute? Check out the Contexto WordPress plugin on [GitHub](https://github.com/thetwentyseven/contexto).
+
+
 == Frequently Asked Questions ==
 
 = Can I select more than one word? =
