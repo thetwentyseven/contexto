@@ -32,16 +32,6 @@ You MUST register to [TextRazor](https://www.textrazor.com/) to make this plugin
 You do not need to register to [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page). However, feel free to register and contribute to the project.
 
 
-== How does it work? ==
-
-1. Create or edit a post or a page
-2. Select a word or a sentence with your mouse
-3. Click the button "Contexto me!"
-4. Contexto automatically will search the word highlighted
-5. If a word has been found, it will add the image and description found in Wikidata
-6. Update or publish
-
-
 == Features ==
 
 * Automatically adds extra content
@@ -54,8 +44,25 @@ You do not need to register to [Wikidata](https://www.wikidata.org/wiki/Wikidata
 
 1. Upload the plugin files to the `/wp-content/plugins/contexto` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress
-3. Use the Settings->Contexto screen to configure the plugin
+3. Use the Admin Panel->Contexto screen to configure the plugin
 4. Follow the instructions in Settings page
+
+
+== How does it work? ==
+
+1. Create or edit a post or a page
+2. Select a word or a sentence with your mouse
+3. Click the button "Contexto me!"
+4. Contexto automatically will search the word highlighted
+5. If a word has been found, it will add the image and description found in Wikidata
+6. Update or publish
+
+
+== Configuration ==
+
+1. Register on [TextRazor](https://www.textrazor.com/) with the free plan
+2. You will receive a API key in your email
+3. Paste your API key in the Admin Panel->Contexto screen
 
 
 == Contact us ==
