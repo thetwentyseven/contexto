@@ -1,0 +1,135 @@
+/*
+Contexto Plugin official CSS
+*/
+
+img.wpContextoImages{
+  height: 100%;
+  width: auto;
+  max-width: none;
+}
+
+
+.wpContextoToolTip {
+  display: inline;
+  position: relative;
+  z-index: 999;
+}
+
+.wpContextoToolTipItem{
+  background: #007acc3b;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  padding: 0 10px;
+}
+
+.wpContextoToolTip:hover .wpContextoToolTipContent {
+    pointer-events: auto;
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0) rotate3d(0,0,0,0);
+    transform: translate3d(0,0,0) rotate3d(0,0,0,0);
+}
+
+.wpContextoToolTipContent::after {
+    content: '';
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-top-color: #2a3035;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+.wpContextoToolTipItem::after {
+    content: '';
+    position: absolute;
+    width: 360px;
+    height: 20px;
+    bottom: 100%;
+    left: 50%;
+    pointer-events: none;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+.clearfix:after {
+    clear: both;
+}
+
+.wpContextoToolTip:hover .wpContextoToolTipItem::after {
+    pointer-events: auto;
+}
+
+.wpContextoToolTipImage {
+  position: relative;
+  height: 170px;
+  width: 130px;
+  display: block;
+  float: left;
+  margin-right: 1em;
+  background: #ece7e7;
+}
+
+.wpContextoToolTipItemFooter{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem;
+  background: #007acc;
+  font-size: 0.7rem;
+}
+
+.wpContextoToolTipItemConfidence{float: right;}
+.wpContextoToolTipItemSource a{color: #fff;}
+.wpContextoToolTipItemSource a:hover{color: #fff;}
+.wpContextoToolTipItemSource a:visited{color: #fff;}
+.wpContextoToolTipItemSource a:active{color: #fff;}
+
+.wpContextoToolTipItemSource, .wpContextoToolTipItemConfidence{
+    padding: 0rem 0.4rem;
+}
+
+.tooltip-effect-1 .wpContextoToolTipContent {
+    -webkit-transform: translate3d(0,-10px,0);
+    transform: translate3d(0,-10px,0);
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.wpContextoToolTipContent {
+  position: absolute;
+  z-index: 9999;
+  width: 360px;
+  left: 50%;
+  margin: 0 0 20px -180px;
+  bottom: 100%;
+  text-align: left;
+  font-size: 0.765em;
+  line-height: 1.4;
+  box-shadow: -5px -5px 15px rgba(48,54,61,0.2);
+  background: #2a3035;
+  opacity: 0;
+  cursor: default;
+  pointer-events: none;
+}
+
+.wpContextoToolTipItemText{
+  position: relative;
+  top: 0;
+  font-size: 0.9rem;
+  line-height: 1.35;
+  display: block;
+  padding: 1rem;
+  color: #fff;
+  width: 230px;
+  height: 150px;
+  z-index: 1;
+  background: #2a3035;
+  margin-left: 130px;
+}
