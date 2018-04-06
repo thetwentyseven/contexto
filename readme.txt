@@ -10,7 +10,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 
-'It's impossible to understand the nuances of the world without some contextual clues' -Contexto. Contexto works with [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) and [TextRazor](https://www.textrazor.com/) to add extra information to your post and pages. While creating or editing a new post or page, just highlight the word, or words desire with your mouse and click the button "Contexto me!" The plugin will do the rest! If Contexto find the word you selected, it will add a picture of the word if it is available, a small description, and a [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) link.
+Contexto add extra information to your post and pages. Just click the button, the plugin will do the rest! 
 
 
 == Description ==
